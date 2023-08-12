@@ -36,4 +36,9 @@
   text-align: center;
   height: 6vh;
   width: 100%;
+  font-size: 90%;
+}
+.name::selection {
+  color: rgb(30, 241, 33);
+  background-color: black;
 }
