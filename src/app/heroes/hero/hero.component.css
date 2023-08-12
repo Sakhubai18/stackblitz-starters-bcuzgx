@@ -3,20 +3,23 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   height: 38vh;
   width: 15rem;
   padding: 0.4rem;
   background-color: rgb(234, 237, 141);
   filter: drop-shadow(10px 10px 20px black);
 }
+
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 9rem;
   width: 100%;
+  padding: 2px;
 }
+
 .avatar > img {
   height: 9rem;
   filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
