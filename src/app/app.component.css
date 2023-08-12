@@ -10,14 +10,15 @@
   background-color: rgb(188, 234, 249);
 }
 .heroes {
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: red; */
 }
 .hero-detail {
   height: 204%;
-  width: 90vh;
+  width: 100vh;
+  border: 1px solid rgb(0, 0, 0);
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: blue; */
 }

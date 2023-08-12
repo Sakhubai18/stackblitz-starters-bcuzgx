@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-import { HeroComponent } from './heroes/hero/hero.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
