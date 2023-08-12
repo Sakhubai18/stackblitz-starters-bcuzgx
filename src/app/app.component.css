@@ -3,21 +3,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  width: 200vh;
+  height: 88vh;
+  width: 204vh;
   padding: 2rem;
   /* border: 1px solid red; */
-  /* background-color: pink; */
+  background-color: rgb(188, 234, 249);
 }
 .heroes {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: red; */
 }
 .hero-detail {
-  height: 100%;
-  width: 60vh;
+  height: 204%;
+  width: 90vh;
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: blue; */
 }

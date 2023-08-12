@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { HeroComponent } from './heroes/hero/hero.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
@@ -7,7 +8,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HeroesComponent, HeroDetailComponent]
+  imports:[HeroesComponent, HeroDetailComponent],
 })
 export class AppComponent implements OnInit {
   
