@@ -1,12 +1,13 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid rgb(0, 0, 0); */
+  border: 1px solid rgb(0, 0, 0);
   height: 48vh;
   width: 40.8rem;
-  padding: 0.4rem;
+  padding: 0.6rem;
+  border: 2px solid rgb(140, 214, 229);
   background-color: rgb(140, 214, 229);
   filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
 }
@@ -15,4 +16,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
