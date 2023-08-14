@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { Hero } from './hero';
 
 @Component({
   standalone: true,
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {}
   onHeroSelected(hero: Hero) {
-    console.log(hero);
+    // console.log(hero);
     this.selectedHero = hero;
   }
 }

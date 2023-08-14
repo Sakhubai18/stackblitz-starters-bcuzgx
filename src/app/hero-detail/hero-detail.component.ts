@@ -9,9 +9,9 @@ import { Hero } from '../hero';
 })
 export class HeroDetailComponent implements OnInit {
   @Input() selectedHero!: Hero;
-  constructor() {
-    console;
-  }
+  constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(this.selectedHero);
+  }
 }
