@@ -3,22 +3,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 88vh;
-  width: 204vh;
+  height: 95vh;
+  width: 205vh;
   padding: 2rem;
   /* border: 1px solid red; */
   background-color: rgb(188, 234, 249);
 }
 .heroes {
-  height: 80vh;
+  display: flex;
+  height: 100vh;
   width: 100%;
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: red; */
 }
 .hero-detail {
-  height: 204%;
+  display: flex;
+  justify-content: center;
+  height: 140%;
   width: 100vh;
-  border: 1px solid rgb(0, 0, 0);
+  /* border: 1px solid rgb(0, 0, 0); */
   box-shadow: 2px 2px 3px rgb(7, 7, 7, 0.3);
   /* background-color: blue; */
 }

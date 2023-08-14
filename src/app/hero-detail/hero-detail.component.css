@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 14%;
+  width: 100vh;
+  align-items: flex-start;
+  justify-content: left;
+  /* background: linear-gradient(orange, white, green); */
+}
+/* .card{
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 20vw;
+} */
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 20%;
+}
+.avatar > img {
+  display: flex;
+  height: 20vh;
+  width: 90%;
+}
+.id {
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  align-items: center;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 20%;
+  height: 20vh;
+  width: 100%;
+}
