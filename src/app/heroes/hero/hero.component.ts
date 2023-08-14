@@ -9,10 +9,11 @@ import { Hero } from '../../hero';
 })
 export class HeroComponent implements OnInit {
   @Input() hero!: Hero;
+  selectedHero?: Hero;
 
   constructor() {}
 
   ngOnInit() {
-    console.log(this.hero);
+    // console.log(this.hero);
   }
 }

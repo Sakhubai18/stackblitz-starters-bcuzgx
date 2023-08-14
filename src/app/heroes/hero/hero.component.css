@@ -9,6 +9,12 @@
   padding: 0.4rem;
   background-color: rgb(234, 237, 141);
   filter: drop-shadow(10px 10px 20px black);
+  background: linear-gradient(rgb(255, 166, 0),rgb(255, 255, 255), rgb(0, 251, 0));
+}
+.container:hover{
+  background-color: #ccc;
+  height: 35vh;
+  box-shadow: 2px 2px 3px reba(7 7 7 0.3) ;
 }
 
 .avatar {
@@ -37,21 +43,12 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 5vh;
+  height: 6vh;
   width: 100%;
-  font-size: 90%;
+  font-size: 70%;
 }
 .name::selection {
   color: rgb(30, 241, 33);
   background-color: black;
 }
-.field {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: 5vh;
-  width: 100%;
-  font-size: 98%;
-}
+
