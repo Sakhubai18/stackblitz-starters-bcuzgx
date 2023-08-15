@@ -17,26 +17,40 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
-  width: 20%;
+  padding: 3px;
+  height: 15vh;
+  width: 25%;
 }
 .avatar > img {
   display: flex;
-  height: 20vh;
-  width: 90%;
+  height: 15vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .id {
+  display: flex;
   align-items: center;
   justify-content: center;
+  height: 7vh;
+  width: 100%;
 }
 .name {
+  display: flex;
   align-items: center;
   justify-content: center;
+  height: 3vh;
+  width: 100%;
+  font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
 }
 .field {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 3vh;
+  width: 100%;
+  font-size: 100%;
 }
 .info {
   display: flex;
@@ -46,4 +60,5 @@
   right: 20%;
   height: 20vh;
   width: 100%;
+  font-size: 100%;
 }
